@@ -1,0 +1,180 @@
+
+/***** BASE STYLES *****/
+
+
+body {
+	font-family: 'Montserrat 400', sans-serif;
+	font-size: 24px;
+
+}
+
+h2 {
+	font-family: 'Source Code Pro 600', monospace;
+	font-size: 36pt;
+	color: #6F1696;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+/***** GRID *****/
+
+.full-width {
+	margin: 0 auto;
+	overflow: auto;
+	width: 1500px;	
+}
+
+.half-width {
+	float: left;
+	width: 740px;	
+}
+
+.third-width {
+	float: left;
+	width: 450px;	
+}
+
+/***** HEADER *****/
+
+header {
+	height: 100px;
+	background-color: #1F202B;	
+}
+
+header p {
+	font-size: 30px;
+	color: #ffffff;
+	text-transform: lowercase;
+	padding-left: 50px;		
+}
+
+nav {
+	float: right;	
+	padding: 0px;
+}
+
+nav ul li {
+	display: inline-block;
+
+}
+
+nav ul li a {
+	color: #ffffff;
+	font-size: 30px;
+	padding-left: 35px;
+	text-decoration: underline;
+	text-transform: lowercase;	
+}
+
+/***** HERO *****/
+
+
+#hero {
+	height: 850px;
+	background: url('../img/hero-background.png');
+	background-position: center;
+	background-size: cover;
+}
+
+#hero h1 {
+	font-family: 'Source Code Pro 600', monospace;
+	font-size: 72px;
+	color: #ffffff;
+	text-transform: lowercase;
+	padding-top: 250px;
+	padding-left: 150px;
+}
+
+#hero span {
+	color: #6F1696;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+	background-color: #1F202B;	
+}
+
+#portfolio h2 {
+	padding-bottom: 50px;
+}
+
+#portfolio h3 {
+	font-family: 'Montserrat 700', sans-serif;
+	font-size: 24px;
+	color: #ffffff;
+	margin: 0 auto;
+	padding-left: 60px;
+	padding-right: 60px;
+
+}
+
+#portfolio p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    width: 600px;  
+    padding-left: 60px;  
+    padding-bottom: 200px;
+
+}
+
+#portfolio img {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+ #portfolio span {
+ 	font-family: 'Montserrat', sans-serif;
+ 	color: #6F1696;
+
+ }  
+
+ /***** ABOUT *****/
+
+#about {
+	height: 700px;
+	background: url('../img/about-me.png');
+	background-position: center;
+	background-size: cover;
+	padding-left: 50px;
+	color: #1F202B;
+}
+
+#about p {
+	width: 600px;	
+}
+
+
+/***** CONTACT *****/
+
+
+#contact {
+	height: 350px;
+	background-color: #1f202b;
+	color: #ffffff;
+}
+
+#contact div .third-width{
+   padding-left: 25px;
+   text-align: center;
+}
+
+#contact img {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#contact a {
+	color: white;
+	text-decoration: underline;
+}
+
+footer {
+	height: 50px;
+	font-size: 18px;
+	background-color: #1F202B;
+	color: #ffffff;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
