@@ -115,6 +115,7 @@ nav ul li a {
     width: 600px;  
     padding-left: 60px;  
     padding-bottom: 200px;
+   
 
 }
 
@@ -128,6 +129,11 @@ nav ul li a {
  	color: #6F1696;
 
  }  
+
+.portfolio-link {
+ 	text-decoration: underline;
+ 	color: #ffffff;
+ }
 
  /***** ABOUT *****/
 
