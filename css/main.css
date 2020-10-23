@@ -130,7 +130,7 @@ nav ul li a {
 
  }  
 
-.portfolio-link {
+#portfolio a {
  	text-decoration: underline;
  	color: #ffffff;
  }
