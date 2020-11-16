@@ -1,16 +1,20 @@
 
 /***** BASE STYLES *****/
 
+html {
+	font-size: 16px;
+}
+
 
 body {
 	font-family: 'Montserrat 400', sans-serif;
-	font-size: 24px;
+	font-size: 1.5em;
 
 }
 
 h2 {
 	font-family: 'Source Code Pro 600', monospace;
-	font-size: 36pt;
+	font-size: 2.25em;
 	color: #6F1696;
 	text-align: center;
 	text-transform: lowercase;
@@ -42,7 +46,7 @@ header {
 }
 
 header p {
-	font-size: 30px;
+	font-size: 2em;
 	color: #ffffff;
 	text-transform: lowercase;
 	padding-left: 50px;		
@@ -60,7 +64,7 @@ nav ul li {
 
 nav ul li a {
 	color: #ffffff;
-	font-size: 30px;
+	font-size: 2em;
 	padding-left: 35px;
 	text-decoration: underline;
 	text-transform: lowercase;	
@@ -78,7 +82,7 @@ nav ul li a {
 
 #hero h1 {
 	font-family: 'Source Code Pro 600', monospace;
-	font-size: 72px;
+	font-size: 4.5em;
 	color: #ffffff;
 	text-transform: lowercase;
 	padding-top: 250px;
@@ -101,7 +105,7 @@ nav ul li a {
 
 #portfolio h3 {
 	font-family: 'Montserrat 700', sans-serif;
-	font-size: 24px;
+	font-size: 1.5em;
 	color: #ffffff;
 	margin: 0 auto;
 	padding-left: 60px;
@@ -177,7 +181,7 @@ nav ul li a {
 
 footer {
 	height: 50px;
-	font-size: 18px;
+	font-size: 1.2em;
 	background-color: #1F202B;
 	color: #ffffff;
 	text-align: center;
